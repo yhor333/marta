@@ -21,6 +21,8 @@ html {
 body {
   font-family: 'Playfair Display', serif;
   height: 100%;
+  background-color: #000;
+  color: #666;
 }
 
 .wrapped {
@@ -28,6 +30,16 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.header-logo {
+    margin: 5px 0 0 10px;
 }
 
 main {
@@ -167,7 +179,7 @@ h2 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 40%;
+    height: 55vh;
     background-color: #000;
     top: -100%;
     transition: all 0.3s ease 0s;
@@ -210,4 +222,39 @@ h2 {
   border: 1px solid #666;
   border-radius: 23px;
   padding: 10px 10px
+}
+
+.main-text {
+  padding: 20px 0 0 0;
+  text-align: justify;
+}
+
+.main-h2 {
+  padding: 50px 0 0 0;
+}
+
+.main-picture {
+  display: flex;
+  padding: 10px 0 10px 0;
+}
+
+.main-picture img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.main-box {
+  height: 200px;
+  margin: 0
+}
+
+.main-box:first-child {
+  padding-right: 10px;
+}
+
+.main-box:last-child {
+  padding-left: 10px;
 }
