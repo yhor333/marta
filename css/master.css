@@ -236,6 +236,7 @@ h2 {
 .main-picture {
   display: flex;
   padding: 10px 0 10px 0;
+  justify-content: center;
 }
 
 .main-picture img {
